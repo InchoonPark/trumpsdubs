@@ -1,0 +1,84 @@
+.dub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.audio-player {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.player-image {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
+.player-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+}
+.social-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 30px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook-btn {
+  background-color: #3b5998;
+}
+.twitter-btn {
+  background-color: #00aced;
+}
+.messenger-btn {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 11px;
+}
+.download-btn {
+  background-color: #ed2845;
+  margin-bottom: 0px;
+}
+.social-icon {
+  color: white;
+  font-size: 15px;
+}
+.credits {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .audio-player {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .player-image {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 50px;
+  }
+}

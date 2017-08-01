@@ -1,0 +1,20 @@
+{
+  "name": "trumpsdubs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "aws-sdk": "^2.28.0",
+    "mongoose": "^4.9.0",
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.5.1",
+    "shortid": "^2.2.8"
+  }
+}
